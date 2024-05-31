@@ -1,10 +1,5 @@
 package emailist
 
-type MailingList struct {
-	Name string
-	Code string
-}
-
 func NewMailingList(name string) *MailingList {
 	return &MailingList{Name: name}
 }
